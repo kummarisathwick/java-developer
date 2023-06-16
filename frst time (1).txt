@@ -1,0 +1,71 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Result
+{
+    public static void main(String[] a) 
+    {
+        int n1=2344;
+        int n2=456;
+        int add=n1+n2;
+        System.out.println(add);
+        int sub=n1-n2;
+        System.out.println(sub);
+        int mul=n1*n2;
+        System.out.println(mul);
+        int div=n1/n2;
+        System.out.println(div);
+        int module=n1%n2;
+        System.out.println(module);
+        String A="sathwi";
+        String B="sathwick";
+        String C=A+B;
+        System.out.println(C);
+        float d1=5.5f;
+        float d2=5.2f;
+        double d3=d1+d2;
+        System.out.println(d3);
+        double d4=2.258632556d;
+        double d5=2.8456875595d;
+        double d6=d4+d5;
+        System.out.println(d6); 
+        int s1=789;
+        int m1=987;
+        if (s1 == m1)
+        {
+            System.out.println("same");
+        }
+        else 
+        {
+            System.out.println("not same");
+        }
+        if(s1 < m1)
+        {
+            System.out.println("greater");
+        }
+         boolean sathwick=false;
+         boolean sathwi=true;
+         boolean result= sathwick || sathwi;
+         System.out.println(result);
+         int n9=65;
+         int h3=52;
+         if(n9>h3)
+         {
+             System.out.println("positive");
+         }
+         else if (n9<h3)
+         {
+             System.out.println("negative");
+         }
+         else
+         {
+             System.out.println("equal to zero");
+         }
+    }
+}
